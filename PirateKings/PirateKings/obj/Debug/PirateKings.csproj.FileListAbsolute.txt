@@ -1,0 +1,33 @@
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\bin\Debug\PirateKings.exe
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\bin\Debug\PirateKings.pdb
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.exe
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.pdb
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\bin\Debug\PirateKings.exe.config
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.dll
+c:\users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.frmMain.resources
+C:\Users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.csproj.GenerateResource.Cache
+C:\Users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.Properties.Resources.resources
+C:\Users\thuyln\documents\visual studio 2012\Projects\PirateKings\PirateKings\obj\Debug\PirateKings.csprojResolveAssemblyReference.cache
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\bin\Debug\PirateKings.exe.config
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.exe
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.pdb
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\bin\Debug\PirateKings.exe
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\bin\Debug\PirateKings.pdb
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.csprojResolveAssemblyReference.cache
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.frmMain.resources
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.Properties.Resources.resources
+C:\Users\nhothuy\Downloads\Compressed\PirateKings\PirateKings\obj\Debug\PirateKings.csproj.GenerateResource.Cache
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\bin\Debug\PirateKings.exe.config
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.exe
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.pdb
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\bin\Debug\PirateKings.exe
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\bin\Debug\PirateKings.pdb
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.csprojResolveAssemblyReference.cache
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.frmMain.resources
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.Properties.Resources.resources
+C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.csproj.GenerateResource.Cache
