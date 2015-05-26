@@ -252,7 +252,7 @@ public partial class PKEx : System.Web.UI.Page
                 dicResult.Add("StealIndex", lstKeysOrder[0].Index);
                 dicResult.Add("FriendFBIDs", "[]");
                 dicResult.Add("secretKey", getKey(accountName));
-                String urlSteal = "http://prod.cashkinggame.com/CKService.svc/v2/attack/steal/?42144.4352499857";
+                String urlSteal = "http://prod.cashkinggame.com/CKService.svc/v2/attack/steal/?" + DateTime.Now.ToOADate().ToString();
                 doPost(urlSteal, JsonConvert.SerializeObject(dicResult));
             }
             catch
@@ -281,7 +281,7 @@ public partial class PKEx : System.Web.UI.Page
             int idxItem = rnd.Next(0, 4);
             itemAttackName = arrItems[idxItem];
         }
-        String url = String.Format("http://prod.cashkinggame.com/CKService.svc/attack/random/{0}/{1}{2}", getKey(accountName), itemAttackName, "?42144.4222831214");
+        String url = String.Format("http://prod.cashkinggame.com/CKService.svc/attack/random/{0}/{1}{2}", getKey(accountName), itemAttackName, "?" + DateTime.Now.ToOADate().ToString());
         return doGet(url);
     }
     /// <summary>
@@ -360,7 +360,7 @@ public partial class PKEx : System.Web.UI.Page
     /// <returns></returns>
     private static string view(String fid)
     {
-        String urlView = "http://prod.cashkinggame.com/CKService.svc/v3.0/island/view/friend/?42146.5503636935";
+        String urlView = "http://prod.cashkinggame.com/CKService.svc/v3.0/island/view/friend/?" + DateTime.Now.ToOADate().ToString();
         Dictionary<string, object> dicResult = new Dictionary<string, object>();
         dicResult.Add("FriendScopedId", fid);
         String dataView = JsonConvert.SerializeObject(dicResult);

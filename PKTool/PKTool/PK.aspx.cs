@@ -360,7 +360,7 @@ public partial class PK : System.Web.UI.Page
     /// <returns></returns>
     private static string view(String fid)
     {
-        String urlView = "http://prod.cashkinggame.com/CKService.svc/v3.0/island/view/friend/?42146.5503636935";
+        String urlView = "http://prod.cashkinggame.com/CKService.svc/v3.0/island/view/friend/?" + DateTime.Now.ToOADate().ToString();
         Dictionary<string, object> dicResult = new Dictionary<string, object>();
         dicResult.Add("FriendScopedId", fid);
         String dataView = JsonConvert.SerializeObject(dicResult);
