@@ -20,7 +20,7 @@
                 $("#stealInfo").html("");
                 $.ajax({
                     type: "POST",
-                    url: "PKEx.aspx/PlayPK",
+                    url: "PKWS.asmx/PlayPK",
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
@@ -47,7 +47,7 @@
                 $("#stealInfo").html("");
                 $.ajax({
                     type: "POST",
-                    url: "PKEx.aspx/PlayPKOne",
+                    url: "PKWS.asmx/PlayPKOne",
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",

@@ -11,6 +11,13 @@
     <script type="text/javascript" src="formoid_files/formoid1/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $.getJSON("accounts.json", function (data) {
+                var htmlOption = "";
+                $.each(data, function (i, item) {
+                    htmlOption += "<option value='" + item.key + "'>" + item.name + "</option>";
+                });
+                $("#accountName").html(htmlOption);
+            });
             $("#Result").click(function () {
                 var accountName = $("#accountName option:selected").val();
                 var isAttackRandom = $('#chkAttackRandom').is(":checked");
@@ -19,7 +26,7 @@
                 $("#stealInfo").html("");
                 $.ajax({
                     type: "POST",
-                    url: "PK.aspx/PlayPK",
+                    url: "PKWS.asmx/PlayPK",
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
@@ -45,7 +52,7 @@
                 $("#stealInfo").html("");
                 $.ajax({
                     type: "POST",
-                    url: "PK.aspx/PlayPKOne",
+                    url: "PKWS.asmx/PlayPKOne",
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
@@ -74,12 +81,6 @@
             <div class="medium">
                 <span>
                     <select name="select" id="accountName">
-                        <option value="5541b1ac94c0430f980e0cc9">0969023566</option>
-                        <option value="5543d17a94c0420fd8b9d13f">0912901720</option>
-                        <option value="5541320594c0430ff49f3672">0974260220</option>
-                        <option value="55412a8394c04106c03394a7">0944220487</option>
-                        <option value="5532757194c0430b8c2c9973">nhothuy48cb</option>
-                        <option value="553d2d6994c03f0ed4dd44d8">lethiminhht</option>
                     </select>
                     <i></i>
                 </span>

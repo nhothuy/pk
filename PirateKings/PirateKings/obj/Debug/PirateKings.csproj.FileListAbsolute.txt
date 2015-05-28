@@ -31,3 +31,6 @@ C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.csprojR
 C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.frmMain.resources
 C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.Properties.Resources.resources
 C:\Users\thuyln\Desktop\PK\PirateKings\PirateKings\obj\Debug\PirateKings.csproj.GenerateResource.Cache
+E:\Working\Projects\pk\PirateKings\PirateKings\bin\Debug\PirateKings.exe.config
+E:\Working\Projects\pk\PirateKings\PirateKings\obj\Debug\PirateKings.exe
+E:\Working\Projects\pk\PirateKings\PirateKings\obj\Debug\PirateKings.pdb
