@@ -30,7 +30,8 @@
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
-                    success: function (msg) {                        
+                    success: function (msg) {
+                        $("#imgIsLand").html('');
                         var obj = jQuery.parseJSON(msg.d);
                         var wheelResult = obj.wheelResult;
                         $("#playerInfo").html(obj.playerInfo);
@@ -40,7 +41,7 @@
                             alert("Steal...!!!");
                         } else {
                             var objImg = jQuery.parseJSON(obj.imgIsLand);
-                            var htmlImg = "<img src='imgs/" + objImg.img0 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + "' height='64' width='64' />";
+                            var htmlImg = "<img src='imgs/" + objImg.img0 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + ".png' height='64' width='64' />";
                             $("#imgIsLand").html(htmlImg);
                         }
                         if (!isAttackRandom && wheelResult == "7") alert("Attack...!!!");
@@ -60,6 +61,7 @@
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (msg) {
+                        $("#imgIsLand").html('');
                         var obj = jQuery.parseJSON(msg.d);
                         var wheelResult = obj.wheelResult;
                         $("#playerInfo").html(obj.playerInfo);
@@ -69,7 +71,7 @@
                             alert("Steal...!!!");
                         } else {
                             var objImg = jQuery.parseJSON(obj.imgIsLand);
-                            var htmlImg = "<img src='imgs/" + objImg.img0 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + "' height='64' width='64' />";
+                            var htmlImg = "<img src='imgs/" + objImg.img0 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + ".png' height='64' width='64' />";
                             $("#imgIsLand").html(htmlImg);
                         }
                         if (!isAttackRandom && wheelResult == "7") alert("Attack...!!!");

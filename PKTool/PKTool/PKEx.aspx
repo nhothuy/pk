@@ -24,7 +24,8 @@
                     data: "{'accountName':'" + accountName + "','isAttackRandom':'" + isAttackRandom + "','isStealAuto':' " + isStealAuto + "'}",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
-                    success: function (msg) {                        
+                    success: function (msg) {
+                        $("#imgIsLand").html('');
                         var obj = jQuery.parseJSON(msg.d);
                         var wheelResult = obj.wheelResult;
                         $("#playerInfo").html(obj.playerInfo);
@@ -55,6 +56,7 @@
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
                     success: function (msg) {
+                        $("#imgIsLand").html('');
                         var obj = jQuery.parseJSON(msg.d);
                         var wheelResult = obj.wheelResult;
                         $("#playerInfo").html(obj.playerInfo);
