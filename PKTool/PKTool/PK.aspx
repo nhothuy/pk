@@ -40,7 +40,7 @@
                             alert("Steal...!!!");
                         } else {
                             var objImg = jQuery.parseJSON(obj.imgIsLand);
-                            var htmlImg = "<img src='imgs/" + objImg.img0 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + ".png' height='64' width='64' />";
+                            var htmlImg = "<img src='imgs/" + objImg.img0 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + "' height='64' width='64' />";
                             $("#imgIsLand").html(htmlImg);
                         }
                         if (!isAttackRandom && wheelResult == "7") alert("Attack...!!!");
@@ -69,7 +69,7 @@
                             alert("Steal...!!!");
                         } else {
                             var objImg = jQuery.parseJSON(obj.imgIsLand);
-                            var htmlImg = "<img src='imgs/" + objImg.img0 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + ".png' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + ".png' height='64' width='64' />";
+                            var htmlImg = "<img src='imgs/" + objImg.img0 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img1 + "' height='64' width='64' />&nbsp;<img src='imgs/" + objImg.img2 + "' height='64' width='64' />";
                             $("#imgIsLand").html(htmlImg);
                         }
                         if (!isAttackRandom && wheelResult == "7") alert("Attack...!!!");
